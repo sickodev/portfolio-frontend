@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
+import Home from './routes/home.tsx'
 import './index.css'
 import { Route} from 'wouter'
 import Profile from './routes/profile.tsx'
@@ -11,7 +11,7 @@ import Blogs from './routes/blogs.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Route path="/" component={App}/>
+    <Route path="/" component={Home}/>
     <Route path="/profile" component={Profile}/>
     <Route path="/education" component={Education}/>
     <Route path="/projects" component={Projects}/>

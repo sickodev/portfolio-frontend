@@ -1,8 +1,8 @@
-import { ChatBody, ChatFooter, ChatHead } from "./components/shared/chat/chat-page";
-import Navbar from "./components/shared/navbar";
-import Viewers from "./components/shared/viewers";
+import { ChatBody, ChatFooter, ChatHead } from "../components/shared/chat/chat-page";
+import Navbar from "../components/shared/navbar";
+import Viewers from "../components/shared/viewers";
 
-function App() {
+function Home() {
   return (
     <main className="h-screen w-full flex flex-col justify-center items-center relative">
       <Navbar/>
@@ -16,4 +16,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
